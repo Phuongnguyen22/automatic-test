@@ -10,13 +10,18 @@
         "test": "cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature",
         "test:tag": "cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature --tags",
         "test:rerun": "cucumber-js --require-module ts-node/register --require ./Step/**/*.ts @rerun.txt",
-        "report": "open test-results/cucumber-report.html"
+        "report": "open test-results/cucumber-report.html",
+        "debug:qa": "cross-env ENV=qa DEBUG=true cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature",
+        "debug:prod": "cross-env ENV=prod DEBUG=true cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature",
+        "test:qa": "cross-env ENV=qa cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature",
+        "test:prod": "cross-env ENV=prod cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature"
     },
     "dependencies": {
         "redis": "^4.7.0"
     },
     "devDependencies": {
         "@cucumber/cucumber": "^10.9.0",
+        "cross-env": "^7.0.3",
         "tsconfig-paths": "^4.2.0"
     }
 }

@@ -13,8 +13,8 @@ Feature: Login to AI PoliteTech
 
     Examples:
       | browser  | email                          | password    |
-      | chromium | Phuong.nguyen@politetech.com   | Phuonglee98 |
-      | chromium | Phuong.nguyen@politetech.com   | Phuonglee98 |
+      | chromium | Phuong.nguyen@politetech.com   | Phuong |
+      | chromium | Phuong.nguyen@politetech.com   | Phuong |
 
   Scenario Outline: Login failed with Microsoft account
     Given I open the browser
