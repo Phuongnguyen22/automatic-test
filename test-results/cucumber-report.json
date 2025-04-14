@@ -1,0 +1,552 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-ai-politetech;successful-login-with-microsoft-account",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Successful login with Microsoft account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1599956667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to \"https://ai.politetech.com/login\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2583132208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on \"Continue with Microsoft Account\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 721747917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter email \"Phuong.nguyen@politetech.com\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 970577707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on \"Next\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48613292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter password \"Phuonglee98\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44611375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on \"Sign in\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1374789708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on \"Yes\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1556302583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1549507041
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-ai-politetech;successful-login-with-microsoft-account",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Successful login with Microsoft account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 670268792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I navigate to \"https://ai.politetech.com/login\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:16"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5003048749,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click on \"Continue with Microsoft Account\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter email \"Phuong.nguyen@politetech.com\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on \"Next\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I enter password \"Phuonglee98\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on \"Sign in\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on \"Yes\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-ai-politetech;login-failed-with-microsoft-account",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Login failed with Microsoft account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668250624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I navigate to \"https://ai.politetech.com/login\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2723903500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on \"Continue with Microsoft Account\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 704379625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I enter email \"Phuongnguyen@politetech.com\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1084871542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on \"Next\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39289000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "if invalid email is entered, verify the error message for email",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 692166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I enter password \"123123123\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35087958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on \"Sign in\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1833105833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on \"Yes\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29340749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "if invalid password is entered, verify the error message for password",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1439957
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-ai-politetech;login-failed-with-microsoft-account",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Login failed with Microsoft account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I open the browser",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 694860292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I navigate to \"https://ai.politetech.com/login\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2472080583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on \"Continue with Microsoft Account\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682520667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I enter email \"Phuong.nguyen@politetech.com\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 962127958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on \"Next\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35718791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "if invalid email is entered, verify the error message for email",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I enter password \"123123123\"",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36868459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on \"Sign in\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2430658166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on \"Yes\" button",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361102333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "if invalid password is entered, verify the error message for password",
+            "match": {
+              "location": "file:/Users/phuongmina/Documents/Autotest/PlaywrightAutomation/Project/Step/loginAI.step.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-ai-politetech",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to AI PoliteTech",
+    "tags": [],
+    "uri": "Feature/loginAI.feature"
+  }
+]

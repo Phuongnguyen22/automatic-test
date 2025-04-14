@@ -1,0 +1,22 @@
+{
+    "name": "playwrightautomation",
+    "version": "1.0.0",
+    "main": "playwright.config.js",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "keywords": [],
+    "scripts": {
+        "test": "cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature",
+        "test:tag": "cucumber-js --require-module ts-node/register --require ./Step/**/*.ts ./Feature/**/*.feature --tags",
+        "test:rerun": "cucumber-js --require-module ts-node/register --require ./Step/**/*.ts @rerun.txt",
+        "report": "open test-results/cucumber-report.html"
+    },
+    "dependencies": {
+        "redis": "^4.7.0"
+    },
+    "devDependencies": {
+        "@cucumber/cucumber": "^10.9.0",
+        "tsconfig-paths": "^4.2.0"
+    }
+}
